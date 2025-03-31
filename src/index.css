@@ -1,0 +1,117 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bug-background {
+    background: url('../Public/assets/bug.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.fire-background {
+    background: url('../Public/assets/fire.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.dark-background {
+    background: url('../Public/assets/dark.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.dragon-background {
+    background: url('../Public/assets/dragon.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.fairy-background {
+    background: url('../Public/assets/fairy.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.electric-background {
+    background: url('../Public/assets/electric.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.fighting-background {
+    background: url('../Public/assets/fighting.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.flying-background {
+    background: url('../Public/assets/flying.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.ghost-background {
+    background: url('../Public/assets/ghost.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.grass-background {
+    background: url('../Public/assets/grass.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.ground-background {
+    background: url('../Public/assets/ground.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.ice-background {
+    background: url('../Public/assets/ice.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.normal-background {
+    background: url('../Public/assets/normal.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.poison-background {
+    background: url('../Public/assets/poison.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.poison-background {
+    background: url('../Public/assets/poison.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.pyschic-background {
+    background: url('../Public/assets/psychic.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.rock-background {
+    background: url('../Public/assets/rock.jpg');
+    background-size: cover;
+    background-position: bottom;
+}   
+
+.steel-background {
+    background: url('../Public/assets/steel.jpg');
+    background-size: cover;
+    background-position: bottom;
+} 
+
+.water-background {
+    background: url('../Public/assets/water.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
