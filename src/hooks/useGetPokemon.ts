@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { BASE_URL } from '../constants/url';
 
-const useGwetPokemon = (pokemonName?: string, pokemonId?: number) => {
+const useGetPokemon = (pokemonName?: string, pokemonId?: number) => {
     const { data: pokemonData, isLoading, error } = useQuery({  
         queryKey: ['pokemon', pokemonName, pokemonId],
         queryFn: async () => {
@@ -17,3 +17,5 @@ const useGwetPokemon = (pokemonName?: string, pokemonId?: number) => {
     });
     return { pokemonData, isLoading, error: error?.message ?? null };
 };
+
+export default useGetPokemon;

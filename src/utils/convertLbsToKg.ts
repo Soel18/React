@@ -1,0 +1,1 @@
+export const convertLibsTokg = (lbs: number): number => lbs * 0.45359237;
