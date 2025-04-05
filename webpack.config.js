@@ -20,6 +20,8 @@ module.exports = {
             {
                 test: /\.(jpg|jpeg|png|gif|mp3|svg|ico)$/,
                 type: 'asset',
+                use: ['@svgr/webpack'],
+
             },
             {
                 test: /\.css$/,

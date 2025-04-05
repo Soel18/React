@@ -11,8 +11,7 @@ const PokemonList: React.FC = () => {
       {pokemonList?.map((pokemon) => (
         <PokemonCard 
           key={pokemon?.name} 
-          pokemon={pokemon} 
-          pokemonId={pokemon?.id} 
+          pokemon={pokemon}  
         />
       ))}
       </Grid>
